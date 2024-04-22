@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Свадебное приглашение</title>
+  <meta property="og:title" content="Приглашаем на свадьбу" />
+  <meta property="og:description" content="Приглашение" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sveta-stas-wedding.github.io/" />
+<!--  <meta property="og:image" content="https://dojinkimm.github.io/wedding_invitation_flutter/assets/assets/images/2.jpeg" />-->
+
+  <style>
+    .lds-heart {
+      position: absolute;
+      top: 40%;
+      left: 48.5%;
+      width: 80px;
+      height: 80px;
+      transform: rotate(45deg);
+      transform-origin: 4px 4px;
+    }
+    .lds-heart div {
+      position: absolute;
+      top: 40%;
+      left: 48.5%;
+      width: 32px;
+      height: 32px;
+      background: #ff0000;
+      animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    .lds-heart div:after,
+    .lds-heart div:before {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 32px;
+      background: #ff0000;
+    }
+    .lds-heart div:before {
+      left: -24px;
+      border-radius: 50% 0 0 50%;
+    }
+    .lds-heart div:after {
+      top: -24px;
+      border-radius: 50% 50% 0 0;
+    }
+    @keyframes lds-heart {
+      0% {
+        transform: scale(0.95);
+      }
+      5% {
+        transform: scale(1.1);
+      }
+      39% {
+        transform: scale(0.85);
+      }
+      45% {
+        transform: scale(1);
+      }
+      60% {
+        transform: scale(0.95);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="lds-heart">
+    <div></div>
+  </div>
+  <script src="main.dart.js" type="application/javascript"></script>
+
+<!--  <html>-->
+<!--  <body>-->
+<!--  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>-->
+<!--  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>-->
+
+  <!-- Firebase Configuration -->
+<!--  <script>-->
+<!--    var firebaseConfig = {-->
+<!--      apiKey: "AIzaSyCSCOCD0nG5xHtcYBE65my3zvWLLeW2tpo",-->
+<!--      authDomain: "sveta-stas-wedding.firebaseapp.com",-->
+<!--      projectId: "sveta-stas-wedding",-->
+<!--      storageBucket: "sveta-stas-wedding.appspot.com",-->
+<!--      messagingSenderId: "1070400856119",-->
+<!--      appId: "1:1070400856119:web:cbb03683f9dbdf1776dfb2",-->
+<!--      measurementId: "G-XCW0F87QKR"-->
+<!--    };-->
+
+<!--    // Initialize Firebase-->
+<!--    firebase.initializeApp(firebaseConfig);-->
+<!--  </script>-->
+
+<!--  </body>-->
+<!--  </html>-->
+</body>
+</html>
